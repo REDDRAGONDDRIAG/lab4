@@ -1,8 +1,6 @@
 # procekt1-2
 git init
-[7:30 PM]
 touch skrypt.sh
-[7:30 PM]
 #!/bin/bash
 
 case "$1" in
@@ -70,13 +68,12 @@ esac
 #!/bin/bash
 
 # Zadanie 1
-# Zmiana flag z podwójnym - na pojedyncze -
-# Przykład użycia: skrypt.sh -h
-# Przykład użycia: skrypt.sh -l 30
-# Przykład użycia: skrypt.sh -d
-# Przykład użycia: skrypt.sh --init
-# Przykład użycia: skrypt.sh --error 30
-# Przykład użycia: skrypt.sh -e 30
+ skrypt.sh -h
+ skrypt.sh -l 30
+ skrypt.sh -d
+ skrypt.sh --init
+ skrypt.sh --error 30
+ skrypt.sh -e 30
 
 # Zadanie 2
 # Dodanie flag -h, -l, -d do skryptu
