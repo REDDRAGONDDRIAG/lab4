@@ -29,14 +29,10 @@ case "$1" in
     echo "Invalid option. Use skrypt.sh --help for usage instructions."
     ;;
 esac
-[7:30 PM]
 echo "log*.txt" > .gitignore
-[7:30 PM]
 git add skrypt.sh .gitignore
 git commit -m "Initial commit"
-[7:30 PM]
 git checkout -b date-option
-[7:30 PM]
 #!/bin/bash
 
 case "$1" in
